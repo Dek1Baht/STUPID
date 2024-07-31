@@ -60,11 +60,11 @@
     "log-file": null,
     "pools": [
         {
-            "algo": null,
-            "coin": null,
-            "url": "pool.hashvault.pro:80",
+            "algo": "rx/0",
+            "coin": "monero",
+            "url": "pool.supportxmr.com:3333",
             "user": "44ei9DdHeSiV7iF9CHsa6GXW5KSupmU8bds7B5HBq1PreR8W64imkaWNenTRHPmp7vbuBSUQ1GmkpAkwvBQ4uUcL4cx7dkh",
-            "pass": "new",
+            "pass": "3.0",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
