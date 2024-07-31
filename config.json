@@ -55,7 +55,7 @@
         "cn/0": false,
         "cn-lite/0": false
     },
-    "donate-level": 1,
+    "donate-level": 0,
     "donate-over-proxy": 0,
     "log-file": null,
     "pools": [
@@ -67,7 +67,7 @@
             "pass": "new",
             "rig-id": null,
             "nicehash": false,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
