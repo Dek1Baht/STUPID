@@ -28,12 +28,12 @@
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
         "priority": 5,
         "memory-pool": true,
         "yield": true,
-        "max-threads-hint": 15,
+        "max-threads-hint": 35,
         "asm": true,
         "argon2-impl": null,
         "cn/0": false,
@@ -60,11 +60,11 @@
     "log-file": null,
     "pools": [
         {
-            "algo": "rx/0",
-            "coin": "monero",
+            "algo": null,
+            "coin": null,
             "url": "pool.supportxmr.com:5555",
             "user": "44ei9DdHeSiV7iF9CHsa6GXW5KSupmU8bds7B5HBq1PreR8W64imkaWNenTRHPmp7vbuBSUQ1GmkpAkwvBQ4uUcL4cx7dkh",
-            "pass": "5.0",
+            "pass": "3.0",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
@@ -77,7 +77,7 @@
             "submit-to-origin": false
         }
     ],
-    "print-time": 60,
+    "print-time": 30,
     "health-print-time": 60,
     "dmi": true,
     "retries": 5,
